@@ -1,16 +1,3 @@
-# Segment Resoures Yet to Be Added
-destination_filters
-destination_subscriptions
-destinations
-functions
-labels
-reverse_etl_models
-sources
-tracking_plans
-transformations
-users
-warehouses
-
 .env
 
 # Local .terraform directories
