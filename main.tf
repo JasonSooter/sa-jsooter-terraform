@@ -39,6 +39,10 @@ resource "segment_destination_subscription" "webhook_send_event_to_pipedream" {
   trigger = "type = \"track\""
 }
 
+# terraform init
+# terraform plan
+# PUBLIC_API_TOKEN=<your_public_api_token> terraform apply
+
 # terraform state rm segment_source.terraform_created_source
 # terraform state rm segment_destination.terraform_created_webhook_destination
 # terraform state rm segment_destination_subscription.webhook_send_event_to_pipedream

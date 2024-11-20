@@ -8,26 +8,26 @@
 
 - https://registry.terraform.io/providers/segmentio/segment/latest/docs
 
-## Run Terraform Init
+## Initialize Terraform
 
 ```bash
 terraform init
 ```
 
-## Run Terraform Plan
+## View Plan of What Will Be Created
 
 ```bash
 terraform plan
 ```
 
-## Run Terraform Apply
+## Create resources (source, destination, and mapping)
 
 ```bash
-terraform apply
+PUBLIC_API_TOKEN=<your_public_api_token> terraform apply
 ```
 
-## Cleanup | Run Terraform Destroy
+## Cleanup / Destroy Resources
 
 ```bash
-terraform apply -destroy
+PUBLIC_API_TOKEN=<your_public_api_token> terraform apply -destroy
 ```
