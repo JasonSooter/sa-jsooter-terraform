@@ -7,7 +7,6 @@ terraform {
   }
 }
 
-
 # Create a Source
 resource "segment_source" "terraform_created_source" {
   enabled  = true
